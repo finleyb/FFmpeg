@@ -41,7 +41,7 @@
 #include "libavutil/random_seed.h"
 #include "libavutil/opt.h"
 #include "libavutil/log.h"
-#include "libavutil/time.h"
+#include "libavutil/fftime.h"
 #include "libavutil/time_internal.h"
 
 #include "avformat.h"

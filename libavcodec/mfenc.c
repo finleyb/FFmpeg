@@ -26,7 +26,7 @@
 #include "mf_utils.h"
 #include "libavutil/imgutils.h"
 #include "libavutil/opt.h"
-#include "libavutil/time.h"
+#include "libavutil/fftime.h"
 #include "internal.h"
 
 typedef struct MFContext {

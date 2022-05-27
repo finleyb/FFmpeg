@@ -15,7 +15,7 @@ HEADERS = ac3_parser.h                                                  \
           dirac.h                                                       \
           dv_profile.h                                                  \
           dxva2.h                                                       \
-          jni.h                                                         \
+          avcjni.h                                                         \
           mediacodec.h                                                  \
           packet.h                                                      \
           qsv.h                                                         \
@@ -45,7 +45,7 @@ OBJS = ac3_parser.o                                                     \
        dv_profile.o                                                     \
        encode.o                                                         \
        imgconvert.o                                                     \
-       jni.o                                                            \
+       avcjni.o                                                            \
        mathtables.o                                                     \
        mediacodec.o                                                     \
        mpeg12framerate.o                                                \
@@ -107,7 +107,7 @@ OBJS-$(CONFIG_IIRFILTER)               += iirfilter.o
 OBJS-$(CONFIG_MDCT15)                  += mdct15.o
 OBJS-$(CONFIG_INTRAX8)                 += intrax8.o intrax8dsp.o msmpeg4data.o
 OBJS-$(CONFIG_IVIDSP)                  += ivi_dsp.o
-OBJS-$(CONFIG_JNI)                     += ffjni.o jni.o
+OBJS-$(CONFIG_JNI)                     += ffjni.o avcjni.o
 OBJS-$(CONFIG_JPEGTABLES)              += jpegtables.o
 OBJS-$(CONFIG_LLAUDDSP)                += lossless_audiodsp.o
 OBJS-$(CONFIG_LLVIDDSP)                += lossless_videodsp.o

@@ -28,7 +28,7 @@
 #include "libavutil/log.h"
 
 #include "config.h"
-#include "jni.h"
+#include "avcjni.h"
 #include "ffjni.h"
 
 static JavaVM *java_vm;

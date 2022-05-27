@@ -22,7 +22,7 @@
 #include "libavutil/mathematics.h"
 #include "libavutil/avstring.h"
 #include "libavutil/intreadwrite.h"
-#include "libavutil/time.h"
+#include "libavutil/fftime.h"
 
 #include "libavcodec/bytestream.h"
 
